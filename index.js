@@ -35,6 +35,7 @@ let sharebtn = document.getElementById('share');
 sharebtn.addEventListener('click',()=>{
     console.log('c')
     let name = document.getElementById('myText').value;
+    name = name.replace(" ","%20");
     // alert(name);
     console.log(name);
     console.log("clicked");
