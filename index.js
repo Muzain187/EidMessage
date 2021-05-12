@@ -39,7 +39,7 @@ sharebtn.addEventListener('click',()=>{
     console.log(name);
     console.log("clicked");
     
-    let url = new URL('http://127.0.0.1:5500/eidWish/index.html');
+    let url = new URL('https://muzain187.github.io/EidMessage/');
     url.searchParams.set('name', `${name}`);
     console.log(url.href);
     
